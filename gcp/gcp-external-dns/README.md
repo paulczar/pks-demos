@@ -36,7 +36,7 @@ provider: google
 # You'll need to create this secret containing your credentials.json
 google:
   project: "<insert project id here>"
-  serviceAccountSecret: "google-service-account"
+  serviceAccountSecret: "external-dns"
 
 ## List of domains that can be managed. Should be managed by Google Cloud DNS
 domainFilters: ["<fully.qualified.domain>"]
